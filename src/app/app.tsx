@@ -10,6 +10,7 @@ import { Banner } from "@/components/banner";
 import { Search } from "@/components/search";
 import { Section } from "@/components/section";
 import { TrendingFoods } from "@/components/trending";
+import { Restaurants } from "@/components/restaurants";
 
 export default function Index() {
   const { theme } = useTheme();
@@ -41,6 +42,7 @@ export default function Index() {
         <Search />
         <Section title="Famosos no DevFood" subtitle="ver todos" />
         <TrendingFoods />
+        <Restaurants />
         <Banner initialImgs={promocionalImgs} />
         <Section title="Comida em alta" subtitle="veja mais" />
         <TrendingFoods />
